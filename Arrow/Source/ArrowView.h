@@ -27,6 +27,7 @@ typedef NS_ENUM(NSUInteger, ArrowPosition) {
 
 @property (nonatomic, weak) id<ArrowViewDelegate> delegate;
 
+- (instancetype)init NS_UNAVAILABLE;
 - (void)updateToArrowPosition:(ArrowPosition)arrowPosition animated:(BOOL)animated;
 
 @end
